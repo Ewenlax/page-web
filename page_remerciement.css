@@ -1,0 +1,24 @@
+/* Pour les pages de remerciement et de bienvenue */
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+
+
+body{
+    background-image: url("./image/feux.gif");
+    background-size: cover;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+.bienvenue{
+    text-align: center;
+    margin-top: 2em;
+    font-size: 100px;
+    font-family: 'Island Moments', cursive;
+}
+.clignote{
+    color: rgb(231, 235, 13);
+    animation: clignote 2s linear infinite;
+}
+@keyframes clignote{
+    50% {opacity: 0;}
+}
