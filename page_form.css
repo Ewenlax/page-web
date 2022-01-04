@@ -1,0 +1,33 @@
+
+/* pour les pages d'inscription et de formulaire de dons */
+
+body{
+    background-color: rgb(156, 98, 21);
+}
+.verre{
+    margin-right: auto;
+    margin-left: auto;
+    width: 350px;
+    height: 250px;
+}
+.verre2{
+    width: 100%;
+    height: 100%;
+}
+.formulaire{
+    display: flex;
+    flex-direction: column;
+}
+.Rad{
+    width: 30%;
+}
+.argent{
+    display: flex;
+}
+.retour{
+    margin-bottom: 4em;    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
