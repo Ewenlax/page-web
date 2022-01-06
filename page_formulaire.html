@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="page_form.css">
+        <title>Don</title>
+    </head>
+    <body>
+        
+        <div class="verre">
+            
+                <img class="verre2" src="./image/thor.gif" alt="verre">
+            
+        </div>
+
+        <form action="./remerciment.html" class="formulaire">
+            <label for="genre">Civilité:</label>
+            <input class="Rad" type="text" id="genre" required>
+            <label for="nom">Nom:</label>
+            <input class="Rad" type="text" id="nom" required>
+            <label for="prenom">Prenom:</label>
+            <input class="Rad" type="text" id="prenom" required>
+            <label for="mail">Adresse mail:</label>
+            <input class="Rad" type="email" id="mail" required>
+            <label for="prix">Montant du don:</label>
+            <div class="argent">
+                <input class="Rad" type="text" id="prix" required>
+                <label for="prix">€</label>
+            </div>
+            <div class="buttonCheck">
+                <input  type="checkbox" id="accord" required>
+                <label for="accord">j'accepte les conditions</label>
+                
+            </div>
+
+            <button type="submit" class="Rad inputColor">Je donne</button>
+        </form>
+
+        <div class="retour">
+            <a href="page_principale.html">Revenir à la page principe:</a>
+        </div>
+        
+    </body>
+
+</html>
